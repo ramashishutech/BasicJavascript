@@ -1,0 +1,7 @@
+Bitwise operator 
+
+Unary operator => void 
+
+when use typof array getting object type in console
+
+instanceof in array and object
