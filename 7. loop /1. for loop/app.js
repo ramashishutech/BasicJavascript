@@ -16,6 +16,10 @@ for(let a=1;a<=10;a++){
 
     
 }
+//print the revers counting 100 to 1;
+for(var n=100;n>0;n--){
+    console.log(n);
+}
 
 
 
