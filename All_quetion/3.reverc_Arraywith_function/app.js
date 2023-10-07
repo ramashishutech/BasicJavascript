@@ -9,7 +9,7 @@ function reversArray(array) {
     
     for (let index = array.length-1; index >=0; index--) {
          
-        empty += array[index]; // 5
+        empty.push(array[index]); // 5
     }
     console.log(empty);
 }
