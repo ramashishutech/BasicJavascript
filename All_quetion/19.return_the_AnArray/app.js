@@ -12,7 +12,7 @@ var ar=[];
 var c=a.split();
 for (let index = 0; index <a.length; index++){
     console.log( typeof c[index]);
-    c[index].push(ar);
+    [index].push(ar);
 };console.log(ar);
 
 // i can do the second away try bus  string
