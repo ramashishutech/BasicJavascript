@@ -9,7 +9,7 @@ do {
 } while (calprimeNumber.length < 100)
 
 sum += calprimeNumber;
-//console.log('type of is :', typeof sum);
+console.log('type of is :', typeof sum);
 function isprime(num) {
     var sqretnum = Math.floor(Math.sqrt(num));
 

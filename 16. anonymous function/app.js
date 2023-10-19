@@ -1,3 +1,7 @@
+
+//this is nomnymous functin
+//this function give name
+
 function fName() {
     return 4 + 5;
 }
@@ -6,6 +10,7 @@ console.log(fName())
 
 
 // anonymous function
+//this function does not take name that decldear with variable
 
  
 setTimeout(function(){
@@ -17,6 +22,11 @@ const aFunction = function () {
 }
 
 aFunction()
+
+var a =function(a,b){
+    return a+b
+}
+a(4,5);
 
 
 
