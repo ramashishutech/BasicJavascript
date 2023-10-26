@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="intro">
+
+        <h1>Heading</h1>
+        <p>This is paragraph tag.</p>
+
+    </div>
+    
+    <script>
+        // It has four position
+        // that are 'beforebegin','afterbegin','beforeend' and 'afterend'
+        const heading = document.getElementById('intro')
+        const content = '<p>This is coming form JavaScript</p>'
+        heading.insertAdjacentHTML('afterend', content)
+
+
+    </script>
+</body>
+
+</html>
