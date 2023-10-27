@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #btn {
+            background-color: magenta;
+            color: white;
+            margin: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="btn">Click Me!</button>
+    <script>
+        const btn = document.getElementById('btn')
+        let css = getComputedStyle(btn) 
+        console.log(css.margin);
+        for (const data of css) {
+            console.log(data)
+        }
+    </script>
+</body>
+
+</html>
