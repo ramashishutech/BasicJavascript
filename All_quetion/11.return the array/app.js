@@ -13,9 +13,11 @@
     if(array1[i]==array2[j]){
         break
     }
-    if(i==l2){
-        console.log(array1[i]+" ")
+    else{
+        console.log(array1[i]);
     }
+       
+    
  }
 
 
