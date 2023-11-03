@@ -20,14 +20,20 @@
         <p>THis is a dummy text!</p>
     </div>
     <script>
+
+        //using the offset
         // see the width and height with border
         let box=document.getElementById("box");
         let width=box.offsetWidth;
         let height=box.offsetHeight;
         console.log(width);
         console.log(height);
-        // see the width and height without border
-        let w=c
+        // see the width and height without border 
+        // using the clint
+        let w=box.clientWidth;
+        let h=box.clientHeight
+        console.log(w);
+        console.log(h);
     </script>
 </body>
 </html>
