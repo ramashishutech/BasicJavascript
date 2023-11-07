@@ -1,4 +1,4 @@
-let text="madam"
+let text="eye"
 let l=text.length;
 //console.log(l);
 function polidramcheck(){
@@ -15,3 +15,4 @@ function polidramcheck(){
     }
 }
 polidramcheck();
+//civic,rader level,rotor,kayak,madam,refer,redivider,kinnikinnik,tattarratttat
