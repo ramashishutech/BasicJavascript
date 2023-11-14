@@ -1,0 +1,11 @@
+#demo{
+
+    /* this is first way */
+  border: 1px solid red;
+ /*padding-top: 10px;
+ padding-bottom:  bottom 15px; 
+ padding-left: 250px;
+ padding-right: 30px; */
+/* this is second way */
+padding: 25px 30px 40px 45px;
+}

@@ -10,5 +10,5 @@ function confirmEnding(string, confirm) {
       return false;
     }
   }
-  confirmEnding('Ashish', 'h');
+  confirmEnding('Ashish', 'v');
   
