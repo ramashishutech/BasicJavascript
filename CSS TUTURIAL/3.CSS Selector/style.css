@@ -1,0 +1,21 @@
+/* 1.Element selector
+2.id selecter
+3.class selecter  */
+
+/* this is element slecter */
+p{
+    color: red;
+}
+
+/* this is  Id sellecter  in this use with (#) */
+#demo{
+    font-size: 20px;
+    color: blue;
+}
+
+/* this is class sellecter in this use with (.) */
+.green-text{
+    color: red;
+    font-style: italic;
+    text-decoration: underline;
+}
