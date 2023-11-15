@@ -1,0 +1,11 @@
+#demo{
+    background-color: blueviolet;
+    /* height: 50%;
+    width: 50%; */
+    /* more thae size */
+    /* max-width: 40%;
+    max-height: 40%; */
+    /* less than size */
+    min-width: 10%;
+    min-height: 15%;
+}
