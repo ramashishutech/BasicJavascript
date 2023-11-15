@@ -12,4 +12,4 @@ function rang([l,h]){//than give preamiter l for lowest value and h for highest 
  return sum//than return the sum
     
  }
- console.log(rang(([7,12])));
+ console.log(rang(([1,20])));
