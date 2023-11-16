@@ -1,0 +1,13 @@
+/* #bg{
+    background-color: yellow;
+}
+body{
+    background-color: red;
+} */
+#bg{
+    background-image: url(image/desktop-wallpaper-web-development-posted-by-sarah-anderson-full-stack.jpg);
+    background-repeat:no-repeat ;
+    /* background-position: center center; */
+    background-size: 80% 80%;
+    background-attachment: fixed;
+}
