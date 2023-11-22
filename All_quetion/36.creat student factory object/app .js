@@ -1,9 +1,15 @@
 // create student factry object
 //example student(rahul 21 ,jalalbad)
 
-let student(Name,age,course)={
-    Name:Name,
-    age:age,
-    course:course,
+function student(name ,age){
+
+    return{
+        name:name,
+        age:age,
+        sayhello:function(){
+            console.log("hello,My name is " +" "+ this.name );
+        }
+    };
 }
-student 
+let student1=student("Ashish",23);
+student1.sayhello();

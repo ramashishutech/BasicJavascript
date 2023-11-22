@@ -16,10 +16,12 @@ function numbervailedeter(contrycode,number){
             var n=number.toString();
             if(list[i].number==n.length){
                 console.log("true");
-                break
+                
             }
+            
         }
-        console.log("false");
+           console.log("false");
     }
+        
     
-}console.log(numbervailedeter('+91',7565852145));
+}numbervailedeter("+92",67658790);

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 100px;
+            background-color: aqua;
+        }
+        #demo{
+            padding: 50px; 
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="demo">
+        <button id="btn">click me</button>
+    </div>
+    <script>
+        let d=document.getElementById("demo");
+        let b=document.getElementById("btn");
+        b.addEventListener('click',btnclicked ,true); 
+        d.addEventListener('click',divClicked ,true);
+
+        document.body.addEventListener('click',bodyClicked,true);
+
+        function btnclicked(){
+            console.log("button click...");
+        }
+        function divClicked(){
+            console.log("div click...");
+        }
+        function bodyClicked(){
+            console.log("body click....")
+        }
+
+    </script>
+</body>
+</html>
