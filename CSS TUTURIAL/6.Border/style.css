@@ -1,0 +1,15 @@
+#boder{
+    /* border-style: dashed; */
+    /* border-style: outset; */
+    border-style: solid;
+    /* border-style: dotted; */
+    /* border-style: inset; */
+    /* border-style: ridge; */
+border-width: 5px 10px 2px 7px;
+border-color: red yellow green blue;
+/* sortcut way */
+/* border-top-style:solid;
+border-top-width: 15px;
+border-top-color: black; */
+border-bottom-right-radius: 20px;
+}

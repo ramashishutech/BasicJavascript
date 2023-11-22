@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="btn">Click Me!</button>
+    <script>
+        const btn = document.getElementById('btn')
+        // set attribute
+        btn.setAttribute('class', 'container')
+        // get attribute
+        const get = btn.getAttribute('class')
+        console.log('get arrtibute', get)
+        // remove attribute
+        const remove = btn.removeAttribute("id")
+       // know the present attribute
+       const check = btn.hasAttribute("class")
+       console.log('check attribute ',check)
+    </script>
+</body>
+
+</html>
