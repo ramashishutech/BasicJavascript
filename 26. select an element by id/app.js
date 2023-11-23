@@ -10,3 +10,6 @@ let h=document.getElementById('hi');
 console.log(h);
 h.innerHTML="this is teacher";
 
+let pragraph=document.getElementById("demo1");
+pragraph.innerHTML="this is pragraph"
+

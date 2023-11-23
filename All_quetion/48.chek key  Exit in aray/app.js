@@ -1,26 +1,4 @@
-// function exitKey(key){
-//     const student = {
-//         Name: "Ashish",
-//         age: 23,
-//         course: "Adca"
-//     };
-      
-//       let arr = Object.keys(student);
-    
-//       let result=arr
-//    // console.log(result);
-//     for(let i=0;i<result.length;i++){
-//         console.log(result[i]===key);
-//         if(result[i]===key){
-            
-        
-//             console.log("true");
-//             break
-//         }else{
-//             console.log("false");
-//         }
-//     }
-// }exitKey("Address")
+
 
 function exitKey(key){
 
@@ -37,3 +15,6 @@ for(let i=0;i<arr.length;i++){
     }
 }
 }exitKey(4)
+
+
+

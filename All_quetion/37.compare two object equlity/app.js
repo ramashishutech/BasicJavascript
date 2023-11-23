@@ -1,72 +1,21 @@
-// comere the two object
- 
-// let student={
-//     Name:"Ashish",
-//     age:12,
-//     course:"Adca"
-// }
-// let student1={
-//     Name:"Rahul",
-//     age:16,
-//     course:"Adca"
-// }
-// for(const [key ,value] of Object.entries(student)){
-//     console.log(`${key}:${value}`)
+const object1={a:1,b:2};
+const object2={a:1,b:2};
+console.log(object1===object2);//this result will be false becouse difrent object in memory
 
-// }
-// console.log(_.isEqual(student, student1));
-// for (const [ key,value] of Object.entries(student1)) {
-//     console.log(`${key}: ${value}`);
+const comprisen=(object1,object2)=>{
+    const keys1=Object.keys(object1);
+    console.log(keys1);
     
-// }
-
-//for (const [key, value] of Object.entries(student)) {
-//     //console.log(`${key}: ${value}`);
-// }
-//if(Object.entries(student)===Object.entries(student1)){
-
-//     console.log("true");
-// }
-// else{
-//     console.log("false")
-// // }
-// if(student[key,value]===student1[key,value]){
-//     console.log("true");
-// }
-// else{
-//     console.log("false")
-// }
-
-
-// let a = { age: 29, name: 'Dionysia'};
-// let b = { name: 'Dionysia', age: 29};
-
-// // console.log(_.isEqual(a, b)); // true 
-// let a = { age: 29, name: 'Dionysia'};
-// let b = { name: 'Dionysia', age: 29};
-
-// console.log(_.isEqual(a, b)); 
-
-function exitKey(key){
-const population = {
-    Name: "Ashish",
-    age: 23,
-    course: "Adca"
-  };
-  
-  let genders = Object.keys(population);
-  console.log(genders);
-
-let result=genders
-console.log(result);
-for(let i=0;i<result.length;i++){
-    if(result[i]===key){
-    
-        console.log("true");
-        break
-    }else{
+    const keys2=Object.keys(object2);
+    console.log(keys2);
+    if(keys1.length!== keys2.length){
         console.log("false");
     }
-    // console.log(ex);
+    for(let key of keys1){
+        if(object1[key]!==object2[key]){
+            console.log("false");
+        }
+    }
+    console.log("true");
 }
-}exitKey("course");
+comprisen(object1,object2);

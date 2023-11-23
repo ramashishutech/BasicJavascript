@@ -10,7 +10,7 @@ function remVowel(str)
 	{
 		
 		if (!vawels.includes(str[i]))
-		{
+		{ console.log(!vawels.includes(str[i]))
 			result += str[i];
 			
 		}
