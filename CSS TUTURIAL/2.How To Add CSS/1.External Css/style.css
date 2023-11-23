@@ -1,0 +1,8 @@
+ /* Three Ways to Insert CSS
+      1 External Css
+       2 Internal
+       3 Inline
+        */
+        p{
+            color: blue;
+        }
