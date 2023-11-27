@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">clear interval</button>
+    <script>
+        //time out and time interval
+
+        // setTimeout(myfunction,5000);
+        // function myfunction(){
+        //     alert("welcome in javaScript");
+
+        // }
+//
+         var t1=setInterval(fun,2000);
+        function fun(){
+            console.log("hi");
+        }
+        let btn=document.getElementById("btn");
+        btn.addEventListener('click',function(){
+          clearInterval(t1);
+        });
+    </script>
+</body>
+</html>
