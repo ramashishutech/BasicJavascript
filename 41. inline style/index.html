@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="btn" style="background-color: red; margin: 50px;">Click Me!</button>
+    <button id="btn1">Click Me!</button>
+    <button id="btn2">Click Me!</button>
+    <script>
+        // first way to style inline
+        const btn = document.getElementById('btn')
+        console.log(btn)
+        // use (+) operator to have the previous styles
+        btn.style.cssText = ("background-color:yellow; color:black;")
+        // second way
+        const btn1 = document.getElementById('btn1')
+        btn1.setAttribute('style','background-color: red; margin: 50px;')
+        // third way
+        const btn2 = document.getElementById('btn2')
+        btn2.style.color = "blue"
+        btn2.style.background = "black"
+        btn2.style.margin = '5px'
+    </script>
+</body>
+
+</html>
