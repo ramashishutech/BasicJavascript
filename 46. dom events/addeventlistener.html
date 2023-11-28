@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <button id="btn">Click Me!</button>
+        <button id="btn1">button2</button>
+        <button id="btn2">button3</button>
+        <script>
+            // addEventListener('event',callback)
+            const btn  = document.getElementById('btn')
+            // addEventListener types 
+            // => 'click','mouseover','mouseout'
+            btn.addEventListener('mousedown',function (){
+                alert("alert using addeventlistener")
+            })
+
+            const btn2=document.getElementById("btn1")
+            btn2.addEventListener("mouseover",function(){
+              alert("this is mouseover");
+            })
+            const btn3=document.getElementById("btn2")
+            btn3.addEventListener("click",function(){
+            alert("this is click")
+            })
+        </script>
+</body>
+</html>
