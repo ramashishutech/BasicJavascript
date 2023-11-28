@@ -1,9 +1,9 @@
 function findHcf(){
     let hcf;
 
-let number1=14;
+let number1=12;
 
-let number2=12;
+let number2=14;
 if(number1<=0 || number2 <=0 ){
     console.log(number1<=0 || number2 <=0 );
     hcf = 0;

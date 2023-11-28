@@ -6,5 +6,5 @@ let student={
     phoneNo:1234356454
 }
 let get=delete student.phoneNo
-console.log(get);
-console.log(student);
+console.log(get);//phoneNo:
+console.log(student); //Name,Class,Address

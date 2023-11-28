@@ -10,5 +10,5 @@ function confirmEnding(string, confirm) {
       return false;
     }
   }
-  confirmEnding('Ashish', 'v');
-  
+  var a=confirmEnding('Ashish', 's');
+  console.log(a);
