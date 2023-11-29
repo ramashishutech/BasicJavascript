@@ -1,4 +1,4 @@
-const object1={a:1,b:3};
+const object1={a:1,b:2};
 const object2={a:1,b:2};
 console.log(object1===object2);//this result will be false becouse difrent object in memory
 

@@ -5,18 +5,15 @@
 function reversArray(array) {
 
     var array=[1,2,5,6,8,4,2] 
+    var len=array.length
+    console.log(len);//7
     var empty=[];
     
-    for (let index = array.length-1; index >=0; index--) {
-         
-        empty.push(array[index]); // 5
+    for (let i = len-1; i>=0; i--) {// run the loop 6,5,4,3,2,1,0
+        // console.log("it is i value "+i);
+        empty.push(array[i]); // 2,4,8,6,5,2,1
+        //console.log(" it is empty value "+ empty);//
     }
     console.log(empty);
 }
 reversArray();
-//out put -->9,8,7,6,5,4,3,2,1
-
-// Array = [];
-// array.length ==> 0
-// for i = 1 , array.length small eq 100
-// array.push ( odd number )

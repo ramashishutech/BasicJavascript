@@ -4,7 +4,7 @@ function trancat(str,l){
         let truncatedStr = str.substring(0, l); // get the first 10 characters  
         console.log(truncatedStr + "...");   
 }
-trancat("asdf",3);
+trancat("ASHISH",3);
 
 // second way
 // function trancat(str,l){

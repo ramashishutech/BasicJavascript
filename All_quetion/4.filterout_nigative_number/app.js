@@ -5,11 +5,15 @@ function filterNigativeNumber() {
     
 
     var a=[1,-2,34,-5,6]
+    var len=a.length
+    console.log(len);
     var nigative=[];
-    for (let i = 0; i < a.length; i++){
+    for (let i = 0; i < len; i++){
+       // console.log("it is i value "+i);
         if (a[i]<=0) {
-           // console.log(a[i]);
-               nigative.push(a[i]);
+            console.log(a[i]);
+               nigative.push(a[i]);//-2,-5
+               console.log("it is nagativ value "+nigative);//-2,-2 -5
       
         }
       

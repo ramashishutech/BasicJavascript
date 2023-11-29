@@ -1,51 +1,17 @@
-function addfibancinumber(number){
+// declaration of the variables  
+var n1 = 0,  n2 = 1, next_num, i ,sum=0;  
+var num = parseInt (prompt (" Enter the limit for Fibonacci Series "));  
 
-    var number;
-
-var n1=0;
-var n2=1;
-let sum = 0;
-for (let i = 2; i < number; i++) {
-  // sum += i 
+for ( i = 1; i <= num; i++)  
+{  
+ console.log( n1); // print the n1  
+  sum+=n1
   
-  // console.log(sum,"flgklfk");
-    var fib=n1+n2;
-    n1=n2;
-    n2=fib;
-    
-}
+    next_num = n1 + n2; // sum of n1 and n2 into the next_num  
+      
+    n1 = n2; // assign the n2 value into n2  
+    n2 = next_num; // assign the next_num into n2  
 
-}addfibancinumber(6);
-
-
-
-// function fibonacci(num) {
-//     let num1 = 0;
-//     let num2 = 1;
-//     let sum;
-//     let i = 0;
-//     for (i = 0; i < num; i++) {
-//         sum = num1 + num2;
-//         num1 = num2;
-//         num2 = sum;
-//     }
-//     return num2;
-// }
- 
-// console.log("Fibonacci(5): " + fibonacci(5));
-// //console.log("Fibonacci(8): " + fibonacci(8));
-
-function sumFibs(num) {
-    var sum = 0;
-    for(i=0,j=1,k=0; k<=num;i=j,j=x,k++) {
-      x = i + j;
-      if (x%2 !== 0) {
-        sum +=x;
-        if (sum >= sum) {
-          break;
-        }
-      }
-    }
-    return sum;
-  }
-  console.log(sumFibs(10));
+}  
+alert("sum of feonacici number :- " + sum);
+  
