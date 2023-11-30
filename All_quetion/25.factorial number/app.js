@@ -16,7 +16,10 @@ else if (number === 0) {
 else {
     let fact = 1;
     for (i = 1; i <= number; i++) {
+        console.log("it's i value "+i);
         fact *= i;
+        console.log(fact);//1,2,6,24,120
+
     }
         alert(`The factorial of ${number} is ${fact}.`);
 }

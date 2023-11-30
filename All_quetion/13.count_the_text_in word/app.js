@@ -4,11 +4,12 @@ function textCount() {
     var count = 0;
     for (let i = 0; i < word.length; i++) {
         
-        if (word[i] == " ") {
-           // console.log(count);
+        if (word[i] == " ") {//" "==" " r == ""
+            
+          console.log("it's "+count);
         } else
-            count++
-    } console.log(count);
+            count++//
+    }console.log(" count value "+count);
 
 
 }

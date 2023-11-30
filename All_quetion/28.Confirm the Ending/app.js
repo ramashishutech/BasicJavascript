@@ -5,10 +5,11 @@
 
 function confirmEnding(string, confirm) {
     if (string.substr(-confirm.length) === confirm) {
+    
       return true;
     } else {
       return false;
     }
   }
-  var a=confirmEnding('Ashish', 's');
+  var a=confirmEnding('Ashish', 'v');
   console.log(a);

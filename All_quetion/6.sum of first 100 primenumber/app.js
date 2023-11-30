@@ -28,7 +28,7 @@ function isprime(num) {
     return prime;
 } //console.log(calprimeNumber);
 
-var total = calprimeNumber
+var total = calprimeNumber//
 var l = total.length
 var addition = 0;
 //console.log(l);

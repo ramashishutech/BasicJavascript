@@ -11,6 +11,6 @@ function getMiddle(str)//eye //trucks
        let a2=str.substring((str.length / 2)-1, (str.length / 2)+1);//6/2=3-1=(2) ,6/2=3+1=4
        console.log(a2);//(2,4)
     }
-  }getMiddle("trucks");
+  }getMiddle("trucklke");
   
   
