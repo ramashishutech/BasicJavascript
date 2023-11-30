@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="btn1">First btn</button>
+    <button id="btn2">Second btn</button>
+    <script>
+        const btnOne = document.getElementById('btn1')
+        const btnTwo = document.getElementById('btn2')
+
+        function btn1() {
+            console.log('btn1 clicked!')
+        }
+        btnOne.addEventListener('click', btn1)
+        btnTwo.addEventListener('click', btn2)
+        function btn2() {
+
+
+            console.log('btn2 clicked')
+
+        }
+        setTimeout(() => {
+            btnTwo.removeEventListener('click', btn2)
+        }, 5000);
+    </script>
+
+
+</body>
+
+</html>
