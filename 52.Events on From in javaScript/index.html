@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action=" ">
+        <input type="text" id="myInput"> 
+    </form>
+    <script>
+        let x=document.getElementById("myInput");
+        x.addEventListener('focus',myFocuseFunction)
+        x.addEventListener('blur',Myblourefunction)
+
+        function myFocuseFunction(){
+            x.style.background="red";//this  function foucse the input area
+        }
+
+        function Myblourefunction(){
+            x.style.background="white";//this is function boler the input area
+        }
+        x.addEventListener('change',function(){
+            console.log(this.value);//this is function change any value in unput box that show the console
+        })
+        x.addEventListener('input',function(){
+            console.log(this.value); //this function do the detected the input value
+        })
+    </script>
+</body>
+</html>
