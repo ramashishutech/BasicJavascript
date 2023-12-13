@@ -12,15 +12,18 @@ let array = [
 function numberVailedeter(contrycode, number) {
 
     for (var i = 0; i < array.length; i++) {
-        console.log("it's i value "+i);
+      //  console.log("it's i value "+i);
         if (array[i].countrycode == contrycode) {
 
             var n = number.toString();
-            //console.log(n);
+         //   console.log(n);
+            var l=n.length
+           // console.log(l);
+         //  console.log("it is array "+array[i]);
+           // console.log("it is number value "+number);
 
-            if (array[i].number == n.length) {
-                console.log(array[i])
-
+            if (array[i].Num === l) {
+                
                 console.log("true");
 
                 break;
@@ -34,5 +37,5 @@ function numberVailedeter(contrycode, number) {
 
 }
 
-var a = numberVailedeter("+91", 7565852145);
+var a = numberVailedeter("+62", 756585214);
    console.log(a);

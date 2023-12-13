@@ -9,7 +9,7 @@ function checkLeapYear(y) {
 
 
     } else {
-        console.log(year + ' is not a leap year');
+        console.log(year + ' is not a leap year'); 
         alert(year + ' is not a leap year');
 
 
@@ -17,4 +17,4 @@ function checkLeapYear(y) {
 
     }
 }
-checkLeapYear(prompt("Enter the year"));
+checkLeapYear('2004');

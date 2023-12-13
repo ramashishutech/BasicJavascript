@@ -9,7 +9,8 @@ function textCount() {
           console.log("it's "+count);
         } else
             count++//
-    }console.log(" count value "+count);
+    }
+    console.log(" count value "+count);
 
 
 }
