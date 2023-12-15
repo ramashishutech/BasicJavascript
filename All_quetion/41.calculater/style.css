@@ -1,0 +1,42 @@
+div {
+    height: 350px;
+    width: 250px;
+    border: 3px solid red;
+    margin: 20px auto;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 10px;
+
+}
+#form{
+    padding: 20px;
+}
+#inputbox{
+    border: 2px solid red;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    font-size:25px;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin: 5px;
+    
+
+
+
+}
+#table{
+    padding: auto;
+    margin-left: 40px;
+    
+    
+}
+.btn{
+    font-size: 35px;
+    border-radius: 50px;
+    border-color: brown;
+    background-color: cornsilk;
+}
+.btn:hover{
+    background-color:red;
+}
