@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button id="btn">google</button>
+    <button id="btn1">youtube</button>
+    <button id="btn2">close</button>
+    <script>
+        //window have two hight and wight
+        //inner with and hight
+
+
+        console.log("inner Hight" + innerHeight);
+        console.log("inner Width" + innerWidth);
+        //outter with and hight 
+        console.log("outer Hight" + outerHeight);
+        console.log("outer Width" + outerWidth);
+
+        let btn = document.getElementById("btn");
+        let btn1 = document.getElementById("btn1");
+        let btn2 = document.getElementById("btn2")
+        let win;
+        let url = "https://www.google.com";
+        let name = "google";
+        let feature = "hight=300,width=300"
+        btn.addEventListener("click", function () {
+            win = window.open(url, name, feature);//this take three pramiter//url,name,feature
+        })
+
+        btn1.addEventListener("click", function () {
+            window.open("https://www.youtube.com", "Youtub");
+        })
+        btn2.addEventListener("click", function () {
+            win.close()
+        })
+
+    </script>
+
+</body>
+
+</html>

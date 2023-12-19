@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- <button id="btn" onclick="fun()">Redirect to google </button> -->
+<button id="btn" onclick="fun()">Relode</button>
+
+<body>
+    <script>
+        console.log("this is location" + location.href);
+        console.log("this is pathname ", location.pathname);
+        console.log("this is protocal", location.protocol);
+
+
+        function fun() {
+            // location.href="http://www.google.com";
+            //location.assign("http://www.google.com");//assing methode manpulet the histry
+           // location.replace("http://www.google.com");//assing methode don't manpulet the histry
+            location.reload()
+
+        }
+       
+    </script>
+</body>
+
+</html>
