@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+.color{
+background-color: gray;
+color:yellow;
+}
+.dim{
+    border: 1px solid red;
+    padding: 100px;
+}
+    </style>
+    <div id="box" class="color dim">
+        <p>this is house</p>
+    </div>
+    <script>
+        // this is first way know about class
+        let box=document.getElementById("box");
+        console.log(box.className);//before include class i can see the class
+        //if i want add after class let's see the bellow
+        box.className +=" demo";
+        //this is second way
+        console.log(box.classList);//see the class throw the classlist
+        // if you want to acss class name one by one can do this usin for loop
+        for(let css of box.classList){
+            console.log(css);
+        }
+        //this 3rd way add the class using add methode let'see
+        box.classList.add("d2");
+
+        //if you want remove the class can do this
+        box.classList.remove("demo");
+
+        //if you wont to repalce the class can do this
+        box.classList.replace("color","d3");
+
+        //if check class aplly or not result in true /false
+        let result=box.classList.contains("d3");
+        console.log(result);
+
+        // using toggle -if class is allredy iside befor than remove class /if class is not include before than add the class
+        box.classList.toggle("color")
+    </script>
+</body>
+</html>
