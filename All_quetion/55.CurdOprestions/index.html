@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
     <div id="contener">
-    
-        <form action="" id="form">
-          
-            <label for="first" id="name">Name :-</label>
-            <input type="text">
-            <br><br>
-            <label for="date" id="age">Age :-</label>
-            <input type="text">
-            <br><br>
-            <label for="gender" id="age">Gender :-</label>
-            <input type="text">
-            <br><br>
-            <label for="last" id="addrsse">Address :-</label>
-            <input type="text">
-            <br><br>
-            <button>Sumbit</button>
-        </form>
+
+        <!-- <form action="" id="form"> -->
+
+        <label for="name">Name</label>
+        <input type="text" id="name">
+        <br>
+        <label for="name">Age</label>
+        <input type="text" id="age">
+        <br>
+        <label for="name">Gender</label>
+        <input type="text" id="gender">
+        <br>
+        <label for="name">Address</label>
+        <input type="text" id="address">
+
+        <button onclick="creatObject()">Sumbit</button>
+        <!-- </form> -->
     </div>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Address</th>
+        </tr>
+    </table>
 
     <script src="app.js"></script>
 </body>
+
 </html>
