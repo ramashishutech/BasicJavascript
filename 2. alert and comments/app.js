@@ -2,7 +2,7 @@ var x;   // varibale decleration
 x = 12;   // value initilization
 setTimeout(() => {
     alert(x)
-}, 5000);
+}, 10000);
 
 
 
@@ -20,4 +20,4 @@ in javascript
 var a="i love my india";
 setTimeout(() => {
     alert(a)
-}, 10000);
+}, 11000);
